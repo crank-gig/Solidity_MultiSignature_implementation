@@ -1,0 +1,30 @@
+# Ignore build artifacts
+node_modules/
+build/
+bin/
+*.json
+*.lock
+
+# Ignore compiled contracts and artifacts
+*.abi
+*.bin
+*.bin-runtime
+*.abi-runtime
+*.clif
+
+# Ignore coverage reports
+coverage/
+
+# Ignore local settings
+.env
+
+# Ignore compiled bytecode
+*.swp
+*.swo
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Truffle configuration
+truffle-config.js
+truffle.js
